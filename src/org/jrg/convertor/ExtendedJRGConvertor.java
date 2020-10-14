@@ -281,8 +281,7 @@ public class ExtendedJRGConvertor
 				}// end of while loop under methods
 				
 			}// end of for loop for each class under methods
-			
-			
+						
 			//======================================================================================================
 			//@ comment: to add final " } " for each class file
 			
@@ -307,7 +306,6 @@ public class ExtendedJRGConvertor
 				endWriter.close();				
 				
 			} // end of while loop for closing brace of every class
-
 				
 		}// end of try block
 		finally {
@@ -320,9 +318,3 @@ public class ExtendedJRGConvertor
 		System.out.println("===================End of CreateJavaProject method========================");
 	}
 }
-
-/*** ======= Comments for testing ===========
- 1) test code with a neo4j graph having more than 1 package under the project node
- 2) test with classes with no implements,extends
- 3) check for node label "INTERFACE"
-***/
